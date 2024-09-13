@@ -12,6 +12,7 @@
 body{
     background-color: azure;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
 }
 
 
@@ -37,12 +38,31 @@ nav{
     align-items: center;
 }
 
-nav ul:nth-child(2) div:nth-child(2){
-    display: none;
-}
 
 nav ul:nth-child(1) h2{
     display: none;
+}
+
+
+
+.disabled{
+    display: none;
+}
+
+
+.enabled{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 13dvh;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.enabled li{
+    padding: 20px;
+    border: 1px solid rgb(175, 173, 173);
 }
 
 .hero{
