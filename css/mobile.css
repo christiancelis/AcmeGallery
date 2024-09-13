@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* html{
+    font-size: 52.6%;
+} */
+body{
+    background-color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    padding: 30px 30px 30px 30px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+
+
+.nav-content i .fi{
+    width:  100px;
+    height: 100px;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul:nth-child(2) div:nth-child(2){
+    display: none;
+}
+
+nav ul:nth-child(1) h2{
+    display: none;
+}
+
+.hero{
+    width: 100%;
+    height: 90dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h1{
+    color: rgb(9, 231, 142);
+    font-size: 30px;
+}
+
+.hero-content{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hero-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content h1, .hero-content p,.hero-content .buttons-hero{
+    padding-bottom: 30px;
+
+}    
+
+.buttons-hero{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.btn-hero1,  .btn-hero2 {
+    padding: 13px;
+}
+
+.buttons-hero a{
+    border: white 2px solid;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    padding: 11px;
+}
+
+.gallery h2{
+    margin: 30px 0 ;
+    text-align: center;
+}
+
+
+
+.Visit, footer{
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+
+.card img{
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+}
+
+.Visit{
+    margin: 20px 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.Visit div{
+    padding-top: 20px;
+}
+.Visit div h1,.Visit div h2{
+    text-align: center;
+}
+
+
+.visit-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.visit-group{
+    width: 100%;
+    height: auto;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.visit-group i{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+}
+
+
+footer section:nth-child(2) a{
+    padding: 10px;
+
+}
+
+
+
