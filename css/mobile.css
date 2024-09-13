@@ -150,6 +150,11 @@ nav ul:nth-child(1) h2{
     height: 500px;
 }
 
+.card img:hover{
+    width: 340px;
+    height: 540px;
+} 
+
 .Visit{
     margin: 20px 10px;
     box-shadow: 2px 2px 2px 2px grey;

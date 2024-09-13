@@ -35,3 +35,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
+
+.gallery h2{
+    font-size: 40px;
+}
